@@ -1,0 +1,31 @@
+/*Style for navbar*/
+.navbar-nav li {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.nav-item {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.jumboCopy img {
+  max-width: 150px;
+  max-height: 800px;
+}
+
+.linkedinButton {
+  background: rgb(31, 67, 31);
+}
