@@ -202,21 +202,83 @@
     </section>
     <!-- Skills and contact me-->
     <section class="skills contact-me">
-      <div class="skills" id="my-skills">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magni
-          libero commodi incidunt minus repellendus aut repellat doloribus
-          repudiandae illo. Ea ratione velit maiores accusamus quaerat,
-          praesentium rerum corporis. Impedit at cumque nesciunt mollitia, nam
-          consequuntur dignissimos ipsa aliquam ipsum, quia maxime voluptatem et
-          magnam hic excepturi molestias, itaque veritatis fuga? Adipisci ex
-          necessitatibus error similique placeat veritatis beatae eius aliquid
-          unde quasi. Similique explicabo voluptas nemo esse quos illo expedita
-          libero a cupiditate repellat corporis alias suscipit dolor unde,
-          deleniti quaerat iusto saepe vero, doloremque, numquam velit facilis
-          quasi.
-        </p>
+      <div class="container text-center skills" id="my-skills">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="card" style="width: 100%">
+              <div class="card-body">
+                <h5 class="card-title">Skills</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6" id="contact-me">
+            <div class="card" style="width: 100%">
+              <div class="card-body">
+                <h5 class="card-title">Contact me</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div
+                  class="btn-group"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio1"
+                    autocomplete="off"
+                    checked
+                  />
+                  <label class="btn btn-outline-primary" for="btnradio1"
+                    >Phone</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio2"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-outline-primary" for="btnradio2"
+                    >Email</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio3"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-outline-primary" for="btnradio3"
+                    >GitHub</label
+                  >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio4"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-outline-primary" for="btnradio4"
+                    >LinkedIn</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+    <footer>
       <div class="contact-me" id="contact-me">
         <ul>
           <li><a href="tel:+447789632994">07789632994</a></li>
@@ -240,8 +302,7 @@
           </li>
         </ul>
       </div>
-    </section>
-    <footer></footer>
+    </footer>
     <!-- Poper and Bootstrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

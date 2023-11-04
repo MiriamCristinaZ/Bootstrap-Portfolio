@@ -30,16 +30,6 @@
   background: rgb(31, 67, 31);
 }
 
-#contact-me ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  position: absolute;
-}
-
-#contact-me li {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 30px;
+.skills {
+  margin-top: 40px;
 }
