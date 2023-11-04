@@ -33,3 +33,46 @@
 .skills {
   margin-top: 40px;
 }
+
+.card-img-top {
+  height: 350px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+#contact-me a {
+  height: 32px;
+  margin: 12px;
+  width: 100px;
+}
+
+.contactItem {
+  list-style-type: none;
+}
+
+footer {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-me ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display the list horizontally */
+}
+
+.contact-me ul li {
+  margin-right: 100px;
+  margin-left: 100px;
+  display: inline-block; /* Display list items in a row */
+}
