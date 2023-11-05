@@ -4,12 +4,9 @@
     flex-direction: column;
     align-items: center;
   }
-  /* .contact-me ul {
-    display: flex;
-    margin-right: 100px;
-    margin-left: 100px;
-    width: 100%;
-  } */
+  #contactIcons ul li {
+    display: none;
+  }
 }
 /*Style for navbar*/
 .nav-item {
@@ -48,6 +45,7 @@
   max-height: 800px;
 }
 
+/*Style for grid area*/
 .card-img-top {
   height: 350px;
 }
@@ -56,6 +54,7 @@
   margin-top: 20px;
 }
 
+/*Style for footer*/
 footer {
   padding: 0;
   margin: 0;
@@ -68,13 +67,6 @@ footer {
   margin-bottom: 30px;
 }
 
-.contactItem a:hover {
-  color: #2f00ff; /* Change the text color on hover */
-}
-.contactItem a {
-  text-decoration: none;
-}
-
 #contactDetails {
   display: flex;
   flex-direction: row;
@@ -83,6 +75,15 @@ footer {
   margin-right: 110px;
 }
 
+/*Style for hyperlinks*/
+.contactItem a:hover {
+  color: #2f00ff;
+}
+.contactItem a {
+  text-decoration: none;
+}
+
+/*Style for buttons*/
 .linkedinButton,
 .gridButton,
 .contactButton {
