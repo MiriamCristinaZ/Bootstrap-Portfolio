@@ -1,9 +1,17 @@
+@media (max-width: 767px) {
+  #contactDetails ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* .contact-me ul {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    width: 100%;
+  } */
+}
 /*Style for navbar*/
-/* .navbar-nav li {
-  margin-left: 130px;
-  margin-right: 130px;
-} */
-
 .nav-item {
   color: black;
   font-size: large;
@@ -21,17 +29,23 @@
   margin-right: 10px;
 }
 
+.contact-me ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.contact-me ul li {
+  margin-right: 0px;
+  margin-left: 100px;
+  text-align: right;
+}
+
+/*Style for jumbotron*/
 .jumboCopy img {
   max-width: 150px;
   max-height: 800px;
-}
-
-.linkedinButton {
-  background: rgb(31, 67, 31);
-}
-
-.skills {
-  margin-top: 40px;
 }
 
 .card-img-top {
@@ -40,16 +54,6 @@
 
 .card {
   margin-top: 20px;
-}
-
-#contact-me a {
-  height: 32px;
-  margin: 12px;
-  width: 100px;
-}
-
-.contactItem {
-  list-style-type: none;
 }
 
 footer {
@@ -64,15 +68,23 @@ footer {
   margin-bottom: 30px;
 }
 
-.contact-me ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex; /* Display the list horizontally */
+.contactItem a:hover {
+  color: #2f00ff; /* Change the text color on hover */
+}
+.contactItem a {
+  text-decoration: none;
 }
 
-.contact-me ul li {
-  margin-right: 100px;
-  margin-left: 100px;
-  display: inline-block; /* Display list items in a row */
+#contactDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 110px;
+}
+
+.linkedinButton,
+.gridButton,
+.contactButton {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
