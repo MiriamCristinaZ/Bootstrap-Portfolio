@@ -8,6 +8,16 @@
     display: none;
   }
 }
+@media (max-width: 1024px) {
+  #contactDetails ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contactIcons ul li {
+    display: none;
+  }
+}
 /*Style for navbar*/
 .nav-item {
   color: black;
