@@ -5,7 +5,7 @@ Welcome to my personal portfolio project! This website showcases my work and ski
 ## Project Overview
 
 - **Technology Stack:** HTML, CSS, Bootstrap
-- **Deployment:** [Insert Deployment Link]
+- **Deployment:** <https://miriamcristinaz.github.io/Bootstrap-Portfolio/>
 
 ## Screenshot
 
@@ -20,7 +20,7 @@ Welcome to my personal portfolio project! This website showcases my work and ski
 
 ## Deployment
 
-The website is deployed and accessible at [Insert Deployment Link]. You can visit it to explore my portfolio and learn more about me.
+The website is deployed and accessible at <https://miriamcristinaz.github.io/Bootstrap-Portfolio/>. You can visit it to explore my portfolio and learn more about me.
 
 ## Usage
 
